@@ -1,0 +1,108 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+
+body{
+    height: 100vh;
+}
+
+#header{
+    height: 119px;
+    box-shadow: 0px 5px 10px #bdc3c7;
+    border-top: none;
+}
+
+#header .noidung{
+    padding: 0 373px;
+    display: flex;
+}
+
+#header .noidung .anh{
+    margin-right: 20px;
+}
+
+
+.nav-header .header-nho{
+    height: 40px;
+    width: 1000px;
+    line-height: 40px;
+     display: flex;
+     justify-content: space-between;
+     padding-top: 15px;
+}
+
+.header-nho-trai{
+    display: flex;
+}
+
+.header-nho-trai span{
+    padding: 0 20px;
+}
+
+.header-nho-trai .ngonngu:hover .ngonngu-nho{
+   cursor: pointer;
+   display: block;
+   transition: 0.3s ease-in-out;
+}
+
+.header-nho-trai .ngonngu .ngonngu-nho{
+    list-style: none;
+    border: 0.5px solid #bdc3c7;
+    background-color: #fff;
+    width: 150px;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    transition: 0.3s ease-in-out;
+}
+
+.ngonngu .ngonngu-nho li{
+    padding: 0 0 0 15px;
+}
+
+.ngonngu .ngonngu-nho li a{
+   text-decoration: none;
+   color: #000;
+}
+
+.nav-header .header-nho .search span{
+    padding: 20px;
+}
+
+.header-nho .search button{
+    font-weight: bold;
+    background-color: #ffbc0d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+.header-nho .search .local{
+    color: #3498db;
+    text-decoration: underline;
+}
+
+
+.nav-header #navbar .menu{
+    list-style: none;
+    display: flex;
+}
+
+#navbar .menu li{
+    padding: 25px;
+}
+
+#navbar .menu li a{
+    font-size: 20px;
+    white-space: nowrap;
+    color: black;
+    text-decoration: none;
+}
